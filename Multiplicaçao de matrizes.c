@@ -4,13 +4,6 @@ int main()
 {
     int maiorL_ou_C, temp, B, La, Ca, Lb, Cb, mA[20][20], mB[20][20], resultado[20][20];
 
-    if(La > Cb){
-        maiorL_ou_C = La;
-    }
-    if(Cb > La){
-        maiorL_ou_C = Cb;
-    }
-
     scanf("%d",&La);
     scanf("%d",&Ca);    
 
